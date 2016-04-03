@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bloodbackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.root.giveblood.Select_Donor_Or_Receptor_3"
+    tools:showIn="@layout/app_bar_select__donor__or__receptor_3">
+
+    <Button
+        android:id="@+id/btn_donor"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+
+        android:text="Want to be a Donor"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+        android:layout_width="218dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0711A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <Button
+        android:id="@+id/btn_Get_Blood"
+        android:text="Want To Get Blood"
+        android:layout_below="@+id/btn_donor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="218dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0711A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:text="Delete My Record "
+        android:layout_below="@+id/Logout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="218dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0711A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:text="Logout"
+        android:layout_below="@+id/btn_Get_Blood"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="218dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0711A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+</RelativeLayout>
